@@ -1,0 +1,18 @@
+{
+  "description": "Default settings",
+  "settings": {
+    "block_size": 3,
+    "feature_size": 10,
+    "num_of_weights": 200,
+    "iterations": 200000,
+    "lr_init": 0.1,
+    "decay_rate_range": 100000,
+    "decay_rate_value": 10,
+    "batch_size": 32
+  },
+  "results": {
+    "training_loss": 2.13937,
+    "validation loss": 2.17024,
+    "time_taken": 669.24996
+  }
+}

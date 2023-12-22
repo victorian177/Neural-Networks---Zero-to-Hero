@@ -1,0 +1,18 @@
+{
+  "description": "Testing model performance using batch size.",
+  "settings": {
+    "block_size": 3,
+    "feature_size": 10,
+    "num_of_weights": 200,
+    "iterations": 200000,
+    "lr_init": 0.1,
+    "decay_rate_range": 100000,
+    "decay_rate_value": 10,
+    "batch_size": 64
+  },
+  "results": {
+    "training_loss": 2.12212,
+    "validation loss": 2.1649,
+    "time_taken": 691.04807
+  }
+}

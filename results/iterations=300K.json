@@ -1,0 +1,18 @@
+{
+  "description": "Testing model performance using iterations.",
+  "settings": {
+    "block_size": 3,
+    "feature_size": 10,
+    "num_of_weights": 200,
+    "iterations": 300000,
+    "lr_init": 0.1,
+    "decay_rate_range": 150000,
+    "decay_rate_value": 10,
+    "batch_size": 32
+  },
+  "results": {
+    "training_loss": 2.11532,
+    "validation loss": 2.15742,
+    "time_taken": 983.33055
+  }
+}

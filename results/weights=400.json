@@ -1,0 +1,18 @@
+{
+  "description": "Testing model performance keeping learning rate constant.",
+  "settings": {
+    "block_size": 3,
+    "feature_size": 10,
+    "num_of_weights": 400,
+    "iterations": 200000,
+    "lr_init": 0.1,
+    "decay_rate_range": 200000,
+    "decay_rate_value": 1,
+    "batch_size": 32
+  },
+  "results": {
+    "training_loss": 2.23136,
+    "validation loss": 2.28881,
+    "time_taken": 1495.04126
+  }
+}

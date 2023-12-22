@@ -1,0 +1,18 @@
+{
+  "description": "Testing model performance using block size.",
+  "settings": {
+    "block_size": 5,
+    "feature_size": 10,
+    "num_of_weights": 200,
+    "iterations": 200000,
+    "lr_init": 0.1,
+    "decay_rate_range": 100000,
+    "decay_rate_value": 10,
+    "batch_size": 32
+  },
+  "results": {
+    "training_loss": 2.19319,
+    "validation loss": 2.21572,
+    "time_taken": 693.86888
+  }
+}
